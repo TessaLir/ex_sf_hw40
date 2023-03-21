@@ -1,0 +1,50 @@
+.header {
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    
+    color: var(--color-five);
+    background-color: var(--color-six);
+}
+
+.nav {
+    display: flex;
+    height: 100%;
+    width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Josefin Sans' sans-serif Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 82%;
+    /* letter-spacing: -0.1em; */
+
+}
+
+.nav-logo {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    text-decoration: none;
+
+    color: var(--color-five);
+}
+
+.nav-menu {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.nav-menu--item {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-five);   
+}
+
+.nav-menu--item:hover {
+    font-weight: 600;
+}
